@@ -1,4 +1,4 @@
-# Connect library to project
+# Connect package to project
 
 First, you need to have Go installed. If Go hasn't installed, then go to [their website](https://go.dev/) and install it.
 When you installed Go, create directory and init module:
@@ -6,7 +6,7 @@ When you installed Go, create directory and init module:
 go mod init example.com/example
 ```
 
-Now, after this, you can connect library:
+Now, after this, you can connect package:
 ```
 go get github.com/aleksnew2/fsutilss
 ```
