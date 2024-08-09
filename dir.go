@@ -5,6 +5,12 @@ import (
 	"strings"
 )
 
+// Directory struct.
+type Directory struct {
+	Path     string
+	Children []string
+}
+
 // Creates directory with 'os.Mkdir()'.
 // Example:
 //
@@ -40,4 +46,8 @@ func RemoveDir(path string) error {
 	}
 
 	return nil
+}
+
+func ScanDir(path string) error {
+	panic("not implemented yet")
 }
