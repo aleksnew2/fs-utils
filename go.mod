@@ -1,3 +1,3 @@
-module github.com/aleksnew2/fsutils
+module github.com/aleksnew2/fs-utils
 
 go 1.22.5
